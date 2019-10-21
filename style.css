@@ -1,0 +1,241 @@
+/*==========================================
+* RESET SOME AGENT CSS STYLES
+*===========================================*/
+/* =================================================================
+*  Reset some user-agent CSS values
+==================================================================*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.15;
+  font-size: 1rem;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+  background-color: #ffffff;
+  font-family: 'Open Sans';
+}
+
+ul {
+  list-style: none;
+  margin-top: 0;
+}
+
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+/*=======================================================
+* NAVBAR
+* =====================================================*/
+.container {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 20;
+}
+
+.navbar,
+.navbar__nav {
+  padding: 1rem 0;
+}
+
+.navbar__nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar--brand {
+  padding: 0 1rem;
+}
+
+.nav__item {
+  padding: 0 1.275rem;
+}
+
+.nav__item--link {
+  color: black;
+}
+
+/*==========================================================================
+* CAROUSEL
+*=========================================================================*/
+.carousel {
+  margin-top: -6.5rem;
+  position: relative;
+  z-index: 10;
+}
+
+.slides {
+  height: calc(100vh - 80px);
+  overflow: hidden;
+}
+
+.slides__item {
+  display: none;
+}
+
+/* The dots/bullets/indicators */
+.carousel__indicators {
+  position: relative;
+  bottom: 25px;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  width: 100%;
+  text-align: center;
+  z-index: 30;
+}
+
+.carousel__indicators li {
+  position: relative;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  margin: 0 2px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.carousel__indicators--dot {
+  border: 1px solid transparent;
+  border-radius: 25%;
+  display: block;
+}
+
+.obj--cover {
+  object-fit: cover;
+}
+
+.obj--center {
+  object-position: center center;
+}
+
+
+figcaption {
+  color: #666;
+  font-size: 90%;
+}
+
+figcaption h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+figcaption p {
+  color: hsla(0, 0%, 40%, 0.6);
+}
+
+.separator {
+  border-left: 1px solid #eee;
+}
+
+.d--flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex--col-4 {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+
+.flex--col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.mr__tb-60 {
+  margin-top: 3.75rem;
+  margin-bottom: 3.75rem;
+}
+
+.img__responsive-full {
+  width: 100%;
+  height: 100%;
+}
+
+.img__responsive-half {
+  width: 50%;
+}
+
+.center {
+  text-align: center;
+}
+
+footer {
+  background-color: #f8f8f8;
+}
+
+.primary__footer {
+  padding-top: 2.8125rem;
+  padding-bottom: 2.8125rem;
+}
+
+.fx__align-start {
+  align-items: flex-start;
+}
+
+.fx__content-ard {
+  justify-content: space-around;
+}
+
+.fx__wrap-wrap {
+  flex-wrap: wrap;
+}
+
+footer ul h4 {
+  margin-bottom: .9375rem;
+  font-weight: 600;
+}
+
+footer ul>li a {
+  color: #666;
+  font-size: .875rem;
+}
+
+.fx--column {
+  flex-direction: column;
+}
+
+.fx-row {
+  flex-direction: row;
+}
+
+
+.secondary__footer {
+  border-top: 1px solid #ddd;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.secondary__footer li a {
+  padding-left: 1.25rem;
+}

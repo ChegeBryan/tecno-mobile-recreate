@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Tecno-Mobile Recreate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <nav class="container navbar">
+    <ul class="navbar__nav">
+      <li><a href="index.html" class="navbar--brand">TECNO</a></li>
+    </ul>
+
+
+    <ul class="navbar__nav">
+      <li class="nav__item">
+        <a href="#" class="nav__item--link">Phone</a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__item--link">Tablets</a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__item--link">Accessories</a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__item--link">Stores</a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__item--link">Support</a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__item--link">Community</a>
+      </li>
+    </ul>
+
+    <ul class="navbar__nav">
+      <li class="nav__item">
+        <a href="#" class="nav__item--link">Login</a>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__item--link">Search</a>
+      </li>
+    </ul>
+  </nav>
+  <!--End Navigation bar-->
+
+  <!-- Carousel -->
+  <!-- Slideshow container -->
+  <div class="carousel">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="slides">
+      <div class="slides__item fade">
+        <video autoplay loop width="100%" height="100%">
+          <source src="assets/video/PC-COVER.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="slides__item fade">
+        <img src="assets/img/cx-pc.jpg" style="width:100%">
+      </div>
+
+      <div class="slides__item fade">
+        <img src="assets/img/homepage-pc-1980x900-n.jpg" style="width:100%">
+      </div>
+    </div>
+
+
+  </div>
+  <!-- Carousel indicators -->
+  <ul class="carousel__indicators">
+    <li onclick=" currentSlide(1)">
+      <button class="carousel__indicators--dot"></button>
+    </li>
+    <li onclick="currentSlide(2)">
+      <button class="carousel__indicators--dot"></button>
+    </li>
+    <li onclick="currentSlide(3)">
+      <button class="carousel__indicators--dot"></button>
+    </li>
+  </ul>
+  <!-- End carousel -->
+
+  <!-- Promotions -->
+  <div class="d--flex">
+    <div class="flex--col-4">
+      <img src="assets/img/camon12-b.jpg" class="img__responsive-full obj--cover obj-center as-bg">
+    </div>
+    <div class="flex--col-4">
+      <img src="assets/img/camonair-dynamic-homepage-B-1200x450.jpg"
+           class="img__responsive-full obj--cover obj--center as-bg">
+    </div>
+    <div class="flex--col-4">
+      <img src="assets/img/dynamic-homepage-spark4-1200x450_v2.jpg"
+           class="img__responsive-full obj--cover obj-center as-bg">
+    </div>
+  </div>
+
+  <div class="d--flex mr__tb-60">
+    <div class="flex--col-6">
+      <figure class="center">
+        <img src="assets/img/HiOS.jpg" class="img__responsive-half">
+        <figcaption>
+          <h3>TECNO HiOS</h3>
+          <p>Slick interface for better interactive experience</p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="flex--col-6 center separator">
+      <figure class="center">
+        <img src="assets/img/compare model.jpg" class="img__responsive-half">
+        <figcaption>
+          <h3>Compare phone models</h3>
+          <p>Select phone for a more detailed comparison</p>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <footer class="">
+    <div class="primary__footer d--flex fx__align-start fx__wrap-wrap fx__content-ard">
+      <ul class="fx--column">
+        <h4>About TECNO</h4>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">News</a></li>
+      </ul>
+      <ul class="fx--column">
+        <h4>Products</h4>
+        <li><a href="#">Phantom</a></li>
+        <li><a href="#">Camon</a></li>
+        <li><a href="#">SPARK</a></li>
+        <li><a href="#">Pouvoir</a></li>
+        <li><a href="#">POP</a></li>
+        <li><a href="#">Tablets</a></li>
+        <li><a href="#">Accessories</a></li>
+      </ul>
+      <ul class="fx--column">
+        <h4>Support</h4>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Downloads</a></li>
+        <li><a href="#">Repair Centers</a></li>
+      </ul>
+      <ul class="fx--column">
+        <h4>App & Services</h4>
+        <li><a href="#">HiOS</a></li>
+        <li><a href="#">Boomplay Music</a></li>
+        <li><a href="#">VsKit</a></li>
+      </ul>
+    </div>
+
+    <div class="secondary__footer container">
+      <ul class="d--flex fx--row">
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Site Map</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
